@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFIT - Silla de Transferencia</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700;900&family=Orbitron:wght@700&family=Audiowide&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-grid"></div>
+
+    <nav class="tab-nav">
+        <button class="tab-btn active" data-target="home-view">Inicio</button>
+        <button class="tab-btn" data-target="specs-view">Ficha Técnica</button>
+        <button class="tab-btn" data-target="gallery-view">Fotos y Videos</button>
+    </nav>
+
+    <div id="home-view">
+        <header>
+            <div class="logo-container">
+                <img src="imágenes/logo.png" alt="Transfit Logo" class="logo-3d">
+            </div>
+            <h1 class="main-title-3d">SILLA DE TRANSFERENCIA TRANSFIT</h1>
+            <div class="header-image-container">
+                <img src="imágenes/IMAGEFIXER.png" alt="Silla Transfit Pequeña" class="header-image">
+            </div>
+        </header>
+
+        <main>
+            <section class="how-it-works">
+                <h2 class="section-title-neon">CÓMO FUNCIONA</h2>
+                <div class="video-grid">
+                    <div class="video-column">
+                        <h3>Tutorial parte 1</h3>
+                        <!-- TUTORIAL PARTE 1 -->
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/oqmO9Q7HPUw" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-column">
+                        <h3>Tutorial parte 2</h3>
+                        <!-- TUTORIAL PARTE 2 -->
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/2M-zZO44NHI" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hero">
+                <p class="hero-description">
+                    Ideal para pacientes con movilidad reducida: posoperatorio, rehabilitación, hemiplegia, parálisis.
+                    Elevación manual con manivela y columna telescópica –una persona liviana eleva hasta 140 kg sin
+                    lastimar
+                    la espalda–.
+                </p>
+                <p class="hero-details">
+                    Asiento y respaldo extraíbles, tapizados gruesos en cuero sintético negro, caño estructural 2 mm,
+                    chapa
+                    asiento 3 mm.
+                    4 ruedas, 2 con freno. Desarma en 3 partes, 28 kg total.
+                </p>
+            </section>
+
+            <section class="specs">
+                <h2>Ficha Técnica</h2>
+                <ul class="specs-list">
+                    <li><strong>Elevación:</strong> hasta 25 cm con manivela liviana y columna telescópica.</li>
+                    <li><strong>Carga máxima:</strong> 140 kg.</li>
+                    <li><strong>Asiento:</strong> chapa acero 3 mm + tapizado grueso.</li>
+                    <li><strong>Estructura:</strong> caño estructural 2 mm (50×50 y 40×40).</li>
+                    <li><strong>Apoyabrazos:</strong> 20×20 curvo, 2 mm, acolchado negro.</li>
+                    <li><strong>Apoyapiés:</strong> antideslizante.</li>
+                    <li><strong>Respaldo:</strong> extraíble.</li>
+                    <li><strong>Ruedas:</strong> 4 macizas, 2 con freno manual.</li>
+                    <li><strong>Peso:</strong> 28 kg.</li>
+                    <li><strong>Medidas:</strong> 57 × 92 cm, altura regulable 95–120 cm.</li>
+                </ul>
+            </section>
+
+            <section class="pricing">
+                <div class="price-tag">
+                    <span class="price">$990.000</span>
+                    <span class="installments">La más barata del mercado</span>
+                </div>
+                <p class="shipping">
+                    <strong>Envíos:</strong> gratis CABA y GBA. Resto: Correo Argentino / Andreani.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                TRANSFIT – Merlo, Buenos Aires – transfitargentina@gmail.com – Fabricamos acá
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgNjAwIj48cGF0aCBmaWxsPSIjNzVBMURCIiBkPSJNMCAwaDkwMHY2MDBIMHoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMCAyMDBoOTAwdjIwMEgwXnoiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NTAgMzAwKSI+PGNpcmNsZSBmaWxsPSIjRjZCNCIgcj0iNjAiLz48L2c+PC9zdmc+"
+                    alt="Bandera Argentina" style="width: 30px; height: auto; vertical-align: middle;">
+            </p>
+        </footer>
+
+        <div class="floating-buttons">
+            <a href="https://wa.me/5491178517894" class="contact-btn" target="_blank">
+                <span class="whatsapp-icon">📱</span>
+                <div class="btn-text">
+                    <span class="btn-title">INFO</span>
+                </div>
+            </a>
+            <a href="https://wa.me/541134167976" class="whatsapp-btn" target="_blank">
+                Pedir por WhatsApp
+            </a>
+        </div>
+    </div>
+
+    <div id="specs-view" class="hidden">
+        <div class="specs-content">
+            <h2>Ficha Técnica TRANSFIT</h2>
+            <ul>
+                <li>Elevación: manivela liviana + columna telescópica – hasta 25 cm</li>
+                <li>Carga: 140 kg</li>
+                <li>Estructura: caño estructural 50×50 y 40×40, 2 mm espesor</li>
+                <li>Asiento: chapa acero 3 mm + tapizado grueso negro, extraíble</li>
+                <li>Respaldo: tapizado grueso negro, extraíble</li>
+                <li>Apoyabrazos: fijos, acolchados negro</li>
+                <li>Apoyapiés: antideslizantes</li>
+                <li>Ruedas: 4 macizas, 2 con freno manual</li>
+                <li>Peso total: 28 kg</li>
+                <li>Medidas: 57 × 92 cm (altura 95–120 cm)</li>
+            </ul>
+            <div class="specs-image-container">
+                <img src="imágenes/ficha%20tecnica.jpg" alt="Ficha Técnica Transfit" class="specs-image">
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery-view" class="hidden">
+        <div class="gallery-container">
+            <h2 class="section-title-neon">FOTOS Y VIDEOS</h2>
+            <div class="gallery-grid">
+                <!-- Videos Promo -->
+                <!-- PROMO 1 -->
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/iK-lXnvl9Sc" allowfullscreen></iframe>
+                </div>
+                <!-- PROMO 2 -->
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/29unz7vK_Hw" allowfullscreen></iframe>
+                </div>
+                <!-- Photos -->
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_120537.jpg', 2)"><img
+                        src="imágenes/20251202_120537.jpg" alt="Vista Silla 1"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_120759.jpg', 3)"><img
+                        src="imágenes/20251202_120759.jpg" alt="Vista Silla 2"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_120857.jpg', 4)"><img
+                        src="imágenes/20251202_120857.jpg" alt="Vista Silla 3"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_120903.jpg', 5)"><img
+                        src="imágenes/20251202_120903.jpg" alt="Vista Silla 4"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_120908.jpg', 6)"><img
+                        src="imágenes/20251202_120908.jpg" alt="Vista Silla 5"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_121024.jpg', 7)"><img
+                        src="imágenes/20251202_121024.jpg" alt="Vista Silla 6"></div>
+                <!-- Removed Silla 7 (index 8) -->
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/20251202_121107.jpg', 8)"><img
+                        src="imágenes/20251202_121107.jpg" alt="Vista Silla 8"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/poner%201.jpg', 9)"><img
+                        src="imágenes/poner%201.jpg" alt="Vista Silla 9"></div>
+                <div class="gallery-item" onclick="openModal('image', 'imágenes/poner%202.jpg', 10)"><img
+                        src="imágenes/poner%202.jpg" alt="Vista Silla 10"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Fullscreen -->
+    <div id="media-modal" class="modal hidden" onclick="closeModal()">
+        <span class="close-modal">&times;</span>
+        <div class="modal-nav prev" onclick="changeMedia(-1, event)">&#10094;</div>
+        <div class="modal-nav next" onclick="changeMedia(1, event)">&#10095;</div>
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <!-- Content injected by JS -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const views = {
+                'home-view': document.getElementById('home-view'),
+                'specs-view': document.getElementById('specs-view'),
+                'gallery-view': document.getElementById('gallery-view')
+            };
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+
+                    // Hide all views
+                    Object.values(views).forEach(view => {
+                        if (view) view.classList.add('hidden');
+                    });
+
+                    // Show target view
+                    const targetId = btn.getAttribute('data-target');
+                    if (views[targetId]) {
+                        views[targetId].classList.remove('hidden');
+                    }
+
+                    // Scroll to top
+                    window.scrollTo(0, 0);
+                });
+            });
+        });
+
+        // Gallery Data
+        const galleryItems = [
+            { type: 'video', src: 'videos/promo%201.mp4' },
+            { type: 'video', src: 'videos/promo%202.mp4' },
+            { type: 'image', src: 'imágenes/20251202_120537.jpg' },
+            { type: 'image', src: 'imágenes/20251202_120759.jpg' },
+            { type: 'image', src: 'imágenes/20251202_120857.jpg' },
+            { type: 'image', src: 'imágenes/20251202_120903.jpg' },
+            { type: 'image', src: 'imágenes/20251202_120908.jpg' },
+            { type: 'image', src: 'imágenes/20251202_121024.jpg' },
+            /* Removed 20251202_121100.jpg */
+            { type: 'image', src: 'imágenes/20251202_121107.jpg' },
+            { type: 'image', src: 'imágenes/poner%201.jpg' },
+            { type: 'image', src: 'imágenes/poner%202.jpg' }
+        ];
+
+        let currentMediaIndex = 0;
+
+        // Modal Functions
+        function openModal(type, src, index) {
+            currentMediaIndex = index;
+            updateModalContent();
+            document.getElementById('media-modal').classList.remove('hidden');
+        }
+
+        function updateModalContent() {
+            const modal = document.getElementById('media-modal');
+            const content = modal.querySelector('.modal-content');
+            const item = galleryItems[currentMediaIndex];
+
+            content.innerHTML = ''; // Clear previous content
+
+            if (item.type === 'image') {
+                const img = document.createElement('img');
+                img.src = item.src;
+                content.appendChild(img);
+            } else if (item.type === 'video') {
+                const video = document.createElement('video');
+                video.src = item.src;
+                video.controls = true;
+                video.autoplay = true;
+                content.appendChild(video);
+            }
+        }
+
+        function changeMedia(direction, event) {
+            if (event) event.stopPropagation();
+
+            currentMediaIndex += direction;
+
+            if (currentMediaIndex < 0) {
+                currentMediaIndex = galleryItems.length - 1;
+            } else if (currentMediaIndex >= galleryItems.length) {
+                currentMediaIndex = 0;
+            }
+
+            updateModalContent();
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('media-modal');
+            const content = modal.querySelector('.modal-content');
+
+            // Stop video if playing
+            const video = content.querySelector('video');
+            if (video) {
+                video.pause();
+            }
+
+            modal.classList.add('hidden');
+        }
+    </script>
+</body>
+
+</html>
